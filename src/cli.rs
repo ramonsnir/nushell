@@ -160,6 +160,7 @@ pub async fn cli() -> Result<(), Box<dyn Error>> {
             whole_stream_command(Last),
             whole_stream_command(Lines),
             whole_stream_command(Reject),
+            whole_stream_command(Reverse),
             whole_stream_command(Trim),
             whole_stream_command(ToArray),
             whole_stream_command(ToCSV),
